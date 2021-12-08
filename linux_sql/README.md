@@ -1,11 +1,11 @@
-#Linux Cluster Monitoring Agent
+# Linux Cluster Monitoring Agent
 
-##Introduction
+## Introduction
 The Linux Cluster Agent (LCA) is designed to monitor a cluster of internally connected nodes or servers. The monitoring agent gathers hardware specifications about the host node/server as well as its real time usage information. This data is used to allocate resources and for planning purposes. Users of this project include owners of the nodes or servers connected to the cluster, as well as the LCA team that will be collecting and analyzing the data.
 
 This project uses a bash monitoring agent. The hardware and usage data is persisted through an instance of PostgreSQL (PSQL). An instance of PSQL is run on a docker container. Version control is tracked through git and the source code is hosted on GitHub. 
 
-##Quick Start 
+## Quick Start 
 
 1. Provision a PSQL instance through a docker container using `psql_docker.sh`
 ```
@@ -38,13 +38,13 @@ The hardware and usage data can be queried as needed using `queries.sql`.
 ```
 psql -h [psql_host] -U [psql_user] -d host_agent -f queires.sql
 ```
-##Implementation
+## Implementation
 
-###Architecture
+### Architecture
 ![my image](./assets/lca_diagram.jpg)
 As described in the LCA diagram above, each node has a monitoring agent installed to it. The monitoring agent consists of two fies, `host_info.sh` and `host_usage.sh` which are sending information to the `host_agent` database. 
 
-###Scripts
+### Scripts
 * `psql_docker.sh`: Provisions, starts, or stops a PSQL instance using docker.
 ```
 #usage
@@ -78,7 +78,7 @@ crontab -e
 #usage
 psql -h [psql_host] -U [psql_user] -d host_agent -f queires.sql
 ```
-###Database Modeling
+### Database Modeling
 The database `host_agent` consists of two tables, `host_info` and `host_usage`.
 
 `host_info` contains hardware specifications of each node or server. There is one entry for each node connected to the cluster as the hardware specifications of each node are assumed to stay constant throughout its connection to the cluster. The following information is stored in this table:
@@ -102,7 +102,7 @@ t
 * `disk_io`: Number of disk I/O
 * `disk_available`: Memory available to root directory in MB
 
-#Testing
+# Testing
 As this is an MVP product, testing was conducted only on a single node. 
 
 * `psql_docker.sh`: Before any docker container was created, the following tests were run.
@@ -173,10 +173,10 @@ cat /tmp/host_usage.log
 psql -h localhost -U postgres -d host_agent -f queries.sql
 #Results in three tables. Table 1 has groupings of nodes by cpu_number and in order of descending total memory. Table 2 has average memory usage percentage over a five minute interval for each node. Table 3 lists nodes and timestamps where crontab failed. 
 ```
-##Deployment 
+## Deployment 
 To deploy this project, a docker container running the PSQL instance must be created on each node. `host_info.sh` only needs to be run once when the node is added to the LCA. `host_usage.sh` is executed using a `crontab` job running every minute. The source code and all versions is released through GitHub. 
 
-##Improvements 
+## Improvements 
 * This project currently handle hardware updates. As `host_info.sh` is only run once, any updates to the host's hardware are not updated by the monitoring agent. 
 * The query searching for instances of `crontab` failure does not detect cases where the `crontab` job did 0 inserts for a node over a 5 minute interval into the `host_usage`. 
 * There are no limits on the amount of usage data collected. This could quickly lead to performance and memory issues. A possible solution might be implementing some clean-up or archiving of historical data. 
