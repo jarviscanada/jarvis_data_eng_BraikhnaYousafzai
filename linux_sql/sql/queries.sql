@@ -8,7 +8,7 @@ $$
      LANGUAGE PLPGSQL;
 
 DROP FUNCTION IF EXISTS percent_mem_used(total_mem integer, free_mem integer);
-CREATE FUNCTION IF NOT EXISTS percent_mem_usage (total_mem INT, free_mem INT) RETURNS INT AS
+CREATE FUNCTION percent_mem_usage (total_mem INT, free_mem INT) RETURNS INT AS
     $$
     BEGIN
         RETURN CAST(((CAST((total_mem - free_mem) AS FLOAT)/CAST(total_mem AS FLOAT))*100) AS INT);
