@@ -26,7 +26,7 @@ public interface JavaGrep {
 	 * @return lines all lines in the file
 	 * @throws FileNotFoundException if a given inputFile is not a file
 	 */
-	List<String> readLines(File inputFile) throws FileNotFoundException;
+	List<String> readLines(File inputFile) throws IOException;
 	
 	/**
 	 * check if a line contains the regex pattern specified by user

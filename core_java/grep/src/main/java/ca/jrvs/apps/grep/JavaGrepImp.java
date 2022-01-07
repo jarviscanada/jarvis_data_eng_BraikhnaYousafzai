@@ -64,7 +64,7 @@ public class JavaGrepImp implements JavaGrep {
 	}
 
 	@Override
-	public List<String> readLines(File inputFile) {
+	public List<String> readLines(File inputFile) throws IOException {
 		List<String> lines = new ArrayList<>();
 		String line;
 		try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))){
