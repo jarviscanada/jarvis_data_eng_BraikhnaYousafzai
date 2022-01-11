@@ -14,7 +14,7 @@ https://www.linkedin.com/learning/learning-jdbc
 
 ## ER Diagram
 
-![](C:\Users\bmaqs\Desktop\jarvis_projects\jarvis_data_eng_BraikhnaYousafzai\core_java\jdbc\assets\ER_diagram.JPG)
+![my image](./assets/ER_diagram.jpg)
 
 ## Design Patterns
 This app implements a Data Access Object (DAO) pattern for a Customer and Order object. The DAO pattern creates an abstraction layer 
