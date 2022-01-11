@@ -1,6 +1,7 @@
-#JDBC
+# JDBC
 
-##Introduction 
+## Introduction
+
 This app is a high level demonstration of JDBC and data access design patterns. 
 This app implements a database which is manipulated using JDBC. The technologies used for this 
 project include Docker, which is used to access an instance of PostgreSQL. The `psql` CLI tool and DBeaver  
@@ -10,7 +11,7 @@ Maven is used to build the project.
 This app was created in tandem with a JDBC course offered through Lynda.
 https://www.linkedin.com/learning/learning-jdbc
 
-#Implementation
+# Implementation
 
 ## ER Diagram
 
