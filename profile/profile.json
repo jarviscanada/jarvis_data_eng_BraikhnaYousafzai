@@ -1,0 +1,85 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Dean's List (2020, 2021)",
+        "GPA: 3.7/4.0"
+      ],
+      "degree": "Bachelor of Science",
+      "department": "Computer Science",
+      "duration": "2018-2021",
+      "school_name": "Western University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai",
+  "highlighted_projects": [
+    {
+      "description": "This project pulls Covid-19 tracking data from an API and sorts the data in ascending or descending order depending on user input. It graphs the data to show various trends such as countries with highest number of total cases or countries with highest number of deaths.",
+      "git_url": "https://github.com/bmaqs/CS3307-Assignments/tree/master/A1",
+      "name": "COVID-19 Graphing Program"
+    },
+    {
+      "description": "Created a software allowing businesses to track incidences of COVID-19 in their establishments and automates notifications to their customer base of any possible exposures. It also allows consumers to easily report COVID-19 cases they have experienced as well as easily receive notifications about potential exposures.",
+      "git_url": "https://github.com/bmaqs/CS3307-Assignments/tree/master/Group-45-Project",
+      "name": "COVID 19 Contact Tracing System"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a linux cluster monitoring agent using shell scripts inserting hardware and usage data for each cluster node to a database. The data was collected in real time using a Crontab job and persisted using PostgreSQL. The project was deployed using a docker container and version control was maintained through GitHub.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/master/linux_sql",
+      "name": "Cluster Monitor"
+    }
+  ],
+  "name": "Braikhna Yousafzai",
+  "others": [
+    {
+      "bullets": [
+        "Art, painting",
+        "Snowboarding",
+        "Volunteer, Pakistani Community Association of London: VP Culture"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Worked on development and engineering projects in an agile enviornment. Worked on a scrum team, including taking on duties as a scrum master.",
+      "duration": "2020-present",
+      "title": "Software Developer"
+    },
+    {
+      "company": "First Canadian Title",
+      "description": "Collaborated with the project team in the design, implementation, and deployment of a new vendor software. Administrated and managed the vendor database. Built a reporting suite using SQL to visualize vendor performance and client KPI's. Worked as a vendor advisor and client solution consultant finding innovative strategies to achieve performance and financial goals.",
+      "duration": "2017-2019",
+      "title": "Data Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Python",
+      "R",
+      "Docker",
+      "PHP",
+      "HTML",
+      "CSS"
+    ],
+    "familiar": [
+      "Hadoop",
+      "NoSQL",
+      "Tableau",
+      "Crystal Reports",
+      "Scala"
+    ],
+    "proficient": [
+      "Java",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Linux/Bash",
+      "Git",
+      "C/C++"
+    ]
+  },
+  "summary": "I enjoy the growth and constant learning that comes with the software industry. I am looking to apply and grow my development and engineering skills in creative ways. I enjoy working collaboratively and across disciplines to get a comprehensive understanding of my projects and company. I appreciate team-based approaches towards a cohesive solution. I am a recent graduate from Western University with a Bachelor's degree with Specialization in Computer Science. I have worked on several Java, Python, and database management projects throughout my degree. I most enjoy the engineering, data management, and analytic aspects of the industry. Outside of work, I enjoy painting, coffee, and a good book. I am also quite involved with my community in volunteering and leadership capacities."
+}
