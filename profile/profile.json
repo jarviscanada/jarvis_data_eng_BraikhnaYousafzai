@@ -19,14 +19,14 @@
       "name": "COVID-19 Graphing Program"
     },
     {
-      "description": "Programmed a software allowing businesses to track incidences of COVID-19 in their establishments and automate exposure notifications to their customer base. A customer interface is implemented to allow customers to easily report their positive COVID-19 cases as well as receive notifications about potential exposures. The business and customer data is persisted on an online database server and notifications are sent out through a pipe. The GUI was converted to a UI using XML. This project was a collaborative submission for a Object Oriented Programming course.",
+      "description": "Programmed a software allowing businesses to track incidences of COVID-19 in their establishments and automate exposure notifications to their customer base. Implemented customer, business, and app admin interfaces to separate role-based privileges. Businesses were able to send out exposure notifications to customer groups, while customers were able to receive notifications and report COVID-19 cases. The data was persisted on an online database server and SQL queries were used to select customer groups affected by potential exposures. To notify customers of exposures emails were sent out via a pipe. A GUI was designed using the Qt toolkit. This project was a collaborative submission for an Object Oriented Programming course submission. The project lifecycle was managed using agile and scrum frameworks.",
       "git_url": "https://github.com/bmaqs/CS3307-Assignments/tree/master/Group-45-Project",
       "name": "COVID 19 Contact Tracing System"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. The data was collected in real-time using a crontab job and persisted using PostgreSQL. SQL queries were run to perform analytics on the cluster such as creating groups of nodes and determining average memory consumption. The project was deployed using a docker container, and version control was maintained through GitHub.",
+      "description": "Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. The data was collected in real-time using a `crontab` job and persisted using PostgreSQL. SQL queries were run to perform analytics on the cluster such as creating groups of nodes and determining average memory consumption. The project was deployed using a docker container, and version control was maintained through GitHub.",
       "git_url": "https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/master/linux_sql",
       "name": "Cluster Monitor"
     }
