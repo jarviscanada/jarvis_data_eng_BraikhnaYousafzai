@@ -48,7 +48,7 @@ public class JavaGrepImp implements JavaGrep {
 				for (File file : children) {
 					if (file.isDirectory()) { 
 						String newDir = file.getName();
-						listFiles(newDir);
+						files = listFiles(dir + "/" + newDir);
 					}
 					else {
 						files.add(file);
