@@ -35,7 +35,7 @@ Potential performance issues may be encountered if the size of the data the appl
 The application was tested manually. As a test case regex patterns were run on files in the ./src directory. The outputted results were compared to expected results.
 
 Example test case:
-`java -jar grep-1.0-SNAPSHOT.jar ./src package.* grep_outfile.txt`
+`java -jar grep-1.0-SNAPSHOT.jar package.* ./src grep_outfile.txt`
 
 This should output all lines with the word "package" from all files in the ./src directory. The expected results are:
 
@@ -47,7 +47,7 @@ The outputted result matched the expected result.
 
 # Deployment
 
-A docker image containing all the contents of the maven package was created and pushed to Docker Hub. When the image is run, the command to run the JAR file is executed, the user only needs to provide the `regex`, `root_dir`, and `outfile` arguments.
+A docker image containing all the contents of the maven created package was pushed to Docker Hub. A Dockerfile was created so that when the image is run, the command to run the JAR file is executed, the user only needs to provide the `regex`, `root_dir`, and `outfile` arguments.
 
 The docker image for this application can be accessed via:
 ```docker pull bmaqsood/grep```
