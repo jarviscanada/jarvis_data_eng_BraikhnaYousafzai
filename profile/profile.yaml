@@ -65,7 +65,9 @@ professional_experience:
     company: "Jarvis"
     duration: "2020-present"
     description: Collaborated with developer, data engineers, and product managers in an agile enviornment. Developed projects using technologies and toolkits such as Java, SQL, Docker, Linux, Bash, PostgreSQL, and Maven. Applied Gitflow as an organizational practice to project development. Participated in scrum ceremonies, including daily scrums, sprint retrospectives, and code reviews. Also took on responsibilities as a scrum master, heading the sprint retrospectives and providing resource planning to my team.
-    # The project description must start with an action verb (https://bit.ly/3guO98u)  - title: "Data Analyst"
+
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+  - title: "Data Analyst"
     company: "First Canadian Title"
     duration: "2017-2019"
     description: Built a reporting suite using SQL to visualize vendor performance and client KPI's. Worked as a vendor advisor and client solution consultant finding innovative strategies to acheive performance and financial goals. Collaborated with the project team in the UI design and deployment of a new vendor software. Created user stories, worked with the QA team to create and run test cases, as well as compiled a user manual for end users.
