@@ -1,16 +1,12 @@
-#ignore all .idea folders
-.*idea/
-#ignore all .settings folders 
-.*settings/
-
-#ignore maven target folders 
-.*target/
-
-#ignore jar files 
-.*JAR
-
-#ignore iml files 
-.*iml
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
 
 #For grep app ignore the data folder 
 C:\Users\bmaqs\Desktop\jarvis_projects\jarvis_data_eng_BraikhnaYousafzai\core_java\grep\data\
