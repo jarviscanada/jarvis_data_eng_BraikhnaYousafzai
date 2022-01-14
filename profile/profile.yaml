@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYo
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I enjoy the growth and constant learning that comes with the software industry. I am looking to apply and grow my development and engineering skills in creative ways. I enjoy working collaboratively and across disciplines to understand my projects and company comprehensively. I appreciate team-based approaches towards a cohesive solution. I am a recent graduate from Western University with a Bachelor's degree with Specialization in Computer Science. I have worked on several Java, Python, and database management projects throughout my degree. I most enjoy the engineering, data management, and analytic aspects of the industry. I enjoy painting, coffee, and a good book outside of work. I am also quite involved with my community in volunteering and leadership capacities.
+summary: I enjoy the growth and constant learning that comes with the software industry. I am looking to apply and grow my development and engineering skills in creative ways. I enjoy working collaboratively and across disciplines to comprehensively understand my projects and company. I appreciate team-based approaches towards a cohesive solution. I am a recent graduate from Western University with a Bachelor's degree with Specialization in Computer Science. I have worked on several Java, Python, and database management projects throughout my degree. I most enjoy the software engineering, data management, and analytic aspects of the industry. I enjoy painting, coffee, and a good book outside of work. I am also quite involved with my community in volunteering and leadership capacities.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -40,7 +40,7 @@ jarvis_projects:
     git_url: "https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/master/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. The data was collected in real-time using a `crontab` job and persisted using PostgreSQL. SQL queries were run to perform analytics on the cluster such as creating groups of nodes and determining average memory consumption. The project was deployed using a docker container, and version control was maintained through GitHub.
+    description: Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. The instance of PostgreSQL was provisioned using Docker. The data was collected in real-time using a `crontab` job. Developed SQL queries to perform data analytics for cluster resource management purposes such as determining average CPU and memory consumption and detecting node failures. Git and Github were used for version control.
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -50,10 +50,12 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/bmaqs/CS3307-Assignments/tree/master/A1"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Programmed a COVID-19 data tracker using C++ to allow for visual representations of worldwide COVID-19 trends. The project pulls COVID-19 data from API and the `iterator` object and `sort` function are used to parse and sort the data. The data is then graphed according to user input. This app issues graphical representation of trends such as countries with highest total case counts and countries with highest total death counts.
+    description: Programmed a C++ utility to track worldwide COVID-19 trends. COVID-19 data was pulled from an API as CSV file and converted to a JSON file using jq as a JSON processor. The app was developed using the Visual Studio IDE and relied on C++ STL packages for algorithms and iterators, as well as file and I/O stream libraries. The application sorts the data and plots terminal-based bar graphs of the data. Users use CLI input to request graphs related to specific trends such as countries with highest total case and countries with highest total death counts.
+
   - name: "COVID 19 Contact Tracing System"
     git_url: "https://github.com/bmaqs/CS3307-Assignments/tree/master/Group-45-Project"
-    description: Programmed a software allowing businesses to track incidences of COVID-19 in their establishments and automate exposure notifications to their customer base. Implemented customer, business, and app admin interfaces to separate role-based privileges. Businesses were able to send out exposure notifications to customer groups, while customers were able to receive notifications and report COVID-19 cases. The data was persisted on an online database server and SQL queries were used to select customer groups affected by potential exposures. To notify customers of exposures emails were sent out via a pipe. A GUI was designed using the Qt toolkit. This project was a collaborative submission for an Object Oriented Programming course submission. The project lifecycle was managed using agile and scrum frameworks.
+    description: Programmed a C++ based software allowing businesses to track incidences of COVID-19 in their establishments and automate email notifcations to a customer base. The application was designed using a factory buidler design pattern. An online SQL database was provisioned to host the data and SQL queries were used to select customer groups affected by potential exposures. The program connected to the database using the MySQL Connector for C++ library, which gave access to drivers and connectors for database access. Email notifications were sent out using pipes. Finally a GUI was designed using the Qt toolkit. Separate interfaces were built to isolate role-based privileges between customers, businesses, and admin. This project was a collaborative submission for an Object Oriented programming course submission. The project lifecycle was managed using agile and scrum frameworks.
+
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -62,13 +64,11 @@ professional_experience:
   - title: "Software Developer"
     company: "Jarvis"
     duration: "2020-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Worked on development and engineering projects in an agile enviornment. Worked on a scrum team, including taking on duties as a scrum master.
-  - title: "Data Analyst"
+    description: Collaborated with developer, data engineers, and product managers in an agile enviornment. Developed projects using technologies and toolkits such as Java, SQL, Docker, Linux, Bash, PostgreSQL, and Maven. Applied Gitflow as an organizational practice to project development. Participated in scrum ceremonies, including daily scrums, sprint retrospectives, and code reviews. Also took on responsibilities as a scrum master, heading the sprint retrospectives and providing resource planning to my team.
+    # The project description must start with an action verb (https://bit.ly/3guO98u)  - title: "Data Analyst"
     company: "First Canadian Title"
     duration: "2017-2019"
-    description: Collaborated with the project team in the design, implementation, and deployment of a new vendor software. Administrated and managed the vendor database. Built a reporting suite using SQL to visualize vendor performance and client KPI's. Worked as a vendor advisor and client solution consultant finding innovative strategies to achieve performance and financial goals.
-
+    description: Built a reporting suite using SQL to visualize vendor performance and client KPI's. Worked as a vendor advisor and client solution consultant finding innovative strategies to acheive performance and financial goals. Collaborated with the project team in the UI design and deployment of a new vendor software. Created user stories, worked with the QA team to create and run test cases, as well as compiled a user manual for end users.
 #List of education
 education: 
   - school_name: "Western University"
@@ -84,6 +84,5 @@ education:
 others:
   - title: "Activities/Hobbies"
     bullets:
-      - "Art, painting"
-      - "Snowboarding"
+      - "Art, painting: host fundraising paint nights at our local mosque."
       - "Volunteer, Pakistani Community Association of London: VP Culture"
