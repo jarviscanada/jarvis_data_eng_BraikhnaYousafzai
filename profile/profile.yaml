@@ -43,7 +43,7 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
+  #project name
   - name: "COVID-19 Graphing Program"
     #URL is optional
     git_url: "https://github.com/bmaqs/CS3307-Assignments/tree/master/A1"
@@ -67,7 +67,7 @@ professional_experience:
     duration: "2017-2019"
     description: Constructed a reporting suite using SQL to visualize vendor performance and client KPI's. Operated as a vendor advisor and client solution consultant finding innovative strategies to achieve performance and financial goals. Assisted the project team in the UI design and deployment of a new vendor software. Devised user stories, worked with the QA team to create and execute test cases, as well as compiled a user manual for end-users.
 #List of education
-education: 
+education:
   - school_name: "Western University"
     duration: "2018-2021"
     degree: "Bachelor of Science"
@@ -83,3 +83,5 @@ others:
     bullets:
       - "Art, painting: host fundraising paint nights at our local mosque."
       - "Volunteer, Pakistani Community Association of London: VP Culture"
+
+
