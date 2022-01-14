@@ -15,7 +15,7 @@ I am a recent graduate from Western University with a Bachelor's degree with a S
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai](https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/master/linux_sql)]: Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. PostgreSQL was provisioned using Docker. Data was collected in real-time using a `crontab` job. Executed SQL queries to perform data analytics for cluster resource management purposes such as determining average CPU and memory consumption and detecting node failures. Git and Github were used for version control.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_BraikhnaYousafzai/tree/master/linux_sql)]: Implemented a Linux cluster monitoring agent using Shell scripts inserting hardware usage data for each cluster node into a PostgreSQL database. PostgreSQL was provisioned using Docker. Data was collected in real-time using a `crontab` job. Executed SQL queries to perform data analytics for cluster resource management purposes such as determining average CPU and memory consumption and detecting node failures. Git and Github were used for version control.
 
 
 ## Highlighted Projects
